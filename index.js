@@ -130,7 +130,7 @@ function PrintLiveResult9(){
 
 function Winner(){
     // x winner 
-    if((id1==X && id2==X && id3==X) || (id4==X && id5==X && id6==X) || (id7==X && id8==X && id9==X) || (id1==X && id3==X && id6==X) || (id2==X && id5==X && id7==X) || (id3==X && id6==X && id9==X) || (id1==X && id5==X && id9==X) || (id7==X && id5==X && id3==X)) {
+    if((id1=='X' && id2=='X' && id3=='X') || (id4=='X' && id5=='X' && id6=='X') || (id7=='X' && id8=='X' && id9=='X') || (id1=='X' && id3=='X' && id6=='X') || (id2=='X' && id5=='X' && id7=='X') || (id3=='X' && id6=='X' && id9=='X') || (id1=='X' && id5=='X' && id9=='X') || (id7=='X' && id5=='X' && id3=='X')) {
         console.log('X is the winner');
 
         id1.disabled=true;
