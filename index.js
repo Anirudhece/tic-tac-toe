@@ -130,16 +130,17 @@ function PrintLiveResult9(){
 
 function Winner(){
     // x winner 
-    if((id1=='X' && id2=='X' && id3=='X') || (id4=='X' && id5=='X' && id6=='X') || (id7=='X' && id8=='X' && id9=='X') || (id1=='X' && id3=='X' && id6=='X') || (id2=='X' && id5=='X' && id7=='X') || (id3=='X' && id6=='X' && id9=='X') || (id1=='X' && id5=='X' && id9=='X') || (id7=='X' && id5=='X' && id3=='X')) {
-        console.log('X is the winner');
+    if((id1.value=='X' && id2.value=='X' && id3.value=='X') || (id4.value=='X' && id5.value=='X' && id6.value=='X') || (id7.value=='X' && id8.value=='X' && id9.value=='X') || (id1.value=='X' && id3.value=='X' && id6.value=='X') || (id2.value=='X' && id5.value=='X' && id7.value=='X') || (id3.value=='X' && id6.value=='X' && id9.value=='X') || (id1.value=='X' && id5.value=='X' && id9.value=='X') || (id7.value=='X' && id5.value=='X' && id3.value=='X')) {
+        
+        // id1.disabled=true;
+        // id2.disabled=true;
+        // id3.disabled=true;
+        // id4.disabled=true;
+        // id5.disabled=true;
+        // id6.disabled=true;
+        // id7.disabled=true;
+        // id8.disabled=true;
 
-        id1.disabled=true;
-        id2.disabled=true;
-        id3.disabled=true;
-        id4.disabled=true;
-        id5.disabled=true;
-        id6.disabled=true;
-        id7.disabled=true;
-        id8.disabled=true;
+        console.log('X is the winner');
     }
 }
