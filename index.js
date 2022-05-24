@@ -132,9 +132,10 @@ let res=0;
 function Winner(){
     // x winner 
 
-    if((id1.value=='X' && id2.value=='X' && id3.value=='X') || (id4.value=='X' && id5.value=='X' && id6.value=='X') || (id7.value=='X' && id8.value=='X' && id9.value=='X') || (id1.value=='X' && id4.value=='X' && id7.value=='X') || (id2.value=='X' && id5.value=='X' && id8.value=='X') || (id3.value=='X' && id6.value=='X' && id9.value=='X') || (id1.value=='X' && id5.value=='X' && id9.value=='X') || (id8.value=='X' && id5.value=='X' && id2.value=='X')) {
+    if((id1.value=='X' && id2.value=='X' && id3.value=='X') || (id4.value=='X' && id5.value=='X' && id6.value=='X') || (id7.value=='X' && id8.value=='X' && id9.value=='X') || (id1.value=='X' && id4.value=='X' && id7.value=='X') || (id2.value=='X' && id5.value=='X' && id8.value=='X') || (id3.value=='X' && id6.value=='X' && id9.value=='X') || (id1.value=='X' && id5.value=='X' && id9.value=='X') || (id3.value=='X' && id5.value=='X' && id7.value=='X') || (id8.value=='X' && id5.value=='X' && id2.value=='X')) {
         
-        console.log('X is the winner');
+        // console.log('X is the winner');
+        alert("X is the winner \n press the reset button to play again");
         res=1;
         
         // jaise hi winner declare hua tabhi inputs dissabled  
@@ -149,9 +150,10 @@ function Winner(){
         // location.reload() ;
     }
 
-    else if( (id1.value=='0' && id2.value=='0' && id3.value=='0') || (id4.value=='0' && id5.value=='0' && id6.value=='0') || (id7.value=='0' && id8.value=='0' && id9.value=='0') || (id1.value=='0' && id4.value=='0' && id7.value=='0') || (id2.value=='0' && id5.value=='0' && id8.value=='0') || (id3.value=='0' && id6.value=='0' && id9.value=='0') || (id1.value=='0' && id5.value=='0' && id9.value=='0') || (id8.value=='0' && id5.value=='0' && id2.value=='0') ){
+    else if( (id1.value=='0' && id2.value=='0' && id3.value=='0') || (id4.value=='0' && id5.value=='0' && id6.value=='0') || (id7.value=='0' && id8.value=='0' && id9.value=='0') || (id1.value=='0' && id4.value=='0' && id7.value=='0') || (id2.value=='0' && id5.value=='0' && id8.value=='0') || (id3.value=='0' && id6.value=='0' && id9.value=='0') || (id1.value=='0' && id5.value=='0' && id9.value=='0') || (id3.value=='0' && id5.value=='0' && id7.value=='0') || (id8.value=='0' && id5.value=='0' && id2.value=='0') ){
 
-        console.log('0 is the winner');
+        // console.log('0 is the winner');
+        alert("0 is the winner \n press the reset button to play again ");
         result=2;
 
         id1.disabled=true;
